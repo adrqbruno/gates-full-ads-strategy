@@ -608,7 +608,7 @@ html:root:not(#_) .ph::before{content:"✎";margin-right:5px;font-weight:400}
       <div><dt>Monthly net spend</dt><dd>US$8,000<small>US$4,000 Google, US$4,000 AdRoll</small></dd></div>
       <div><dt>Goals</dt><dd>Full funnel<small>Qualified traffic, sign-ups, FTDs, dormant accounts brought back</small></dd></div>
       <div class="feat"><dt>Cost per FTD</dt><dd>No target yet<small>Set once real FTD data is in</small></dd></div>
-      <div><dt>Markets and language</dt><dd>US, UK, Canada<small>English creative; budget 30 / 35 / 35</small></dd></div>
+      <div><dt>Markets and language</dt><dd>US, UK, Canada<small>English creative; budget 60 / 20 / 20, then shifts to the best responders</small></dd></div>
     </dl>
   </div>
 </header>
@@ -658,22 +658,22 @@ html:root:not(#_) .ph::before{content:"✎";margin-right:5px;font-weight:400}
   <div class="wrap">
     <p class="kick">02 · Markets</p>
     <h2>Three markets, English creative.</h2>
-    <p class="sec-lede">The split applies to Google and AdRoll prospecting. Retargeting and re-engagement follow the user, whatever the market.</p>
+    <p class="sec-lede">A starting split, not a fixed one: as signals show one market responding better, budget moves toward it. The split applies to Google and AdRoll prospecting; retargeting and re-engagement follow the user, whatever the market.</p>
     <div class="scen roles">
       <div class="card">
-        <div class="tag">30% · ≈US$2,400</div>
+        <div class="tag">60% · ≈US$4,800 · lead market</div>
         <h4>United States</h4>
-        <p>Largest trader pool and the highest CPCs. Launch depends on licensing: CFDs can’t be offered to US retail clients. If not cleared, this share moves to the UK and Canada.</p>
+        <p>Largest trader pool and the highest potential, at the highest CPCs. Launch depends on licensing: CFDs can’t be offered to US retail clients. If not cleared, this share moves to the UK and Canada.</p>
         <span class="kpi">Judged on: cost per sign-up vs the other two</span>
       </div>
       <div class="card">
-        <div class="tag">35% · ≈US$2,800</div>
+        <div class="tag">20% · ≈US$1,600</div>
         <h4>United Kingdom</h4>
         <p>Benchmarked in the comparable account, at the top of the CPC range. Google requires FCA authorisation to run financial services ads.</p>
         <span class="kpi">Judged on: cost per sign-up vs the other two</span>
       </div>
       <div class="card">
-        <div class="tag">35% · ≈US$2,800</div>
+        <div class="tag">20% · ≈US$1,600</div>
         <h4>Canada</h4>
         <p>Benchmarked in the comparable account, where Canada-weighted traffic is the upside case.</p>
         <span class="kpi">Judged on: cost per sign-up vs the other two</span>
@@ -814,7 +814,7 @@ html:root:not(#_) .ph::before{content:"✎";margin-right:5px;font-weight:400}
       <div class="panel">
         <h3>Setup checklist</h3>
         <ul class="checklist">
-          <li>Geo by presence; one campaign set per market, budgets 30 / 35 / 35 (US / UK / Canada)</li>
+          <li>Geo by presence; one campaign set per market, budgets 60 / 20 / 20 (US / UK / Canada) at launch</li>
           <li>Primary conversion: sign-up. FTD in observation</li>
           <li>Exact and phrase match, to keep queries tight with no CPA target</li>
           <li>Negative list live from day 1</li>
@@ -922,7 +922,7 @@ html:root:not(#_) .ph::before{content:"✎";margin-right:5px;font-weight:400}
   <div class="wrap">
     <p class="kick">09 · Scenarios</p>
     <h2>What US$8,000 can return, before real data exists.</h2>
-    <p class="intro">Costs and sign-up rates from the comparable account; cost per sign-up divides the full US$8,000. Benchmarks cover UK and Canada only; US CPCs are likely higher. Scenarios stop at sign-up: FTD volumes and costs are not projected until real data exists. * Planner estimate.</p>
+    <p class="intro">Costs and sign-up rates from the comparable account; cost per sign-up divides the full US$8,000. Benchmarks cover UK and Canada only; with 60% in the US, where CPCs are likely higher, expect fewer clicks than shown until US data comes in. Scenarios stop at sign-up: FTD volumes and costs are not projected until real data exists. * Planner estimate.</p>
     <div class="scen">
       <div class="card">
         <div class="tag"></div>
@@ -975,7 +975,7 @@ html:root:not(#_) .ph::before{content:"✎";margin-right:5px;font-weight:400}
     <h3 class="sub">Decision rules, agreed before launch</h3>
     <div class="rules-tbl">
       <div class="rule"><div class="when">Weekly</div><div class="if"><b>If</b>Retargeting can’t spend within its caps</div><div class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="then"><b>Then</b><span>Move the rest to prospecting</span></div></div>
-      <div class="rule"><div class="when">Day 30</div><div class="if"><b>If</b>One market costs 1.5× more per sign-up than the other two</div><div class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="then"><b>Then</b><span>Shift budget to the cheaper markets</span></div></div>
+      <div class="rule"><div class="when">Weekly, from day 30</div><div class="if"><b>If</b>A market shows stronger signals: lower cost per sign-up, better sign-up quality, more FTDs</div><div class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="then"><b>Then</b><span>Shift budget toward it, in steps, away from the weakest market</span></div></div>
       <div class="rule"><div class="when">Day 30</div><div class="if"><b>If</b>One prospecting interest costs 1.5× more per sign-up</div><div class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="then"><b>Then</b><span>Shift prospecting budget to the cheaper interest</span></div></div>
       <div class="rule"><div class="when">Day 45</div><div class="if"><b>If</b>Re-engagement cost per reactivation beats cost per FTD</div><div class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="then"><b>Then</b><span>Scale re-engagement up to list capacity</span></div></div>
       <div class="rule"><div class="when">Day 45</div><div class="if"><b>If</b>Lookalike beats contextual on cost per new visitor</div><div class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div><div class="then"><b>Then</b><span>Lookalike replaces contextual</span></div></div>
